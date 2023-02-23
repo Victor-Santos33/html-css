@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        header{
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+        }
+        body{
+            background-color: burlywood;
+            margin: 0px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        nav{
+            background-color: brown;
+            padding: 3px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.329);
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 10px 0px;
+            box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.459);
+        }
+        #noticia{
+            margin: 10px;
+            padding: 10px;
+            background-color: rgb(235, 207, 172)
+        }
+        article{
+            padding: 10px;
+        }
+        article > aside{
+            text-align: center;
+            background-color: brown;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Apocalypse TCG</h1>
+        <nav>
+            <a href="">Cartas</a>
+            <a href="">Tutorial</a>
+            <a href="">Créditos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticia">
+            <article>
+                <h2>Notícia sobre o Jogo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet fugiat autem maiores sapiente tenetur deserunt tempore, nisi debitis consequuntur soluta, ex nostrum at modi non nobis ab voluptate quas sed.</p>
+                <aside>
+                    <p>Artigo escrito por brooklyn</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo visan_designer</p>
+    </footer>
+</body>
+</html>
